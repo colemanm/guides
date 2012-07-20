@@ -16,4 +16,4 @@ One caveat is that your data needs to be in the proper map units for which you w
 3. Select "Create a new field" called "area" with type "whole number" and a width large enough to accommodate your rough area size.
 4. Expand the "Geometry" functions and double-click `$area`, then click OK to run the calculations.
 
-You now have a column with your boundary's area in map units. If your data is in meters, divide the square meter area by 1,000,000 to get the area in sq km. If the result is feet and you want square miles, divide the result by 27,878,372 (5280*2).
+You now have a column with your boundary's area in map units. If your data is in meters, divide the square meter area by 1,000,000 to get the area in sq km. If the result is feet and you want square miles, divide the result by 27,878,372 (5280 squared).
